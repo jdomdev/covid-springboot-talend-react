@@ -30,3 +30,7 @@ replay_pid*
 /data/
 # Project-specific data files
 /covid-dashboard/data/
+
+# IDE and build tool generated files
+.vscode/
+target/
