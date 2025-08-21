@@ -34,3 +34,6 @@ replay_pid*
 # IDE and build tool generated files
 .vscode/
 target/
+
+# Property files
+*.properties
