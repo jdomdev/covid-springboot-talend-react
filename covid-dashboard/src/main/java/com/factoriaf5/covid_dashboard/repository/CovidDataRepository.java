@@ -4,6 +4,8 @@ package com.factoriaf5.covid_dashboard.repository;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 import com.factoriaf5.covid_dashboard.domain.CovidData;
 
 @Repository
