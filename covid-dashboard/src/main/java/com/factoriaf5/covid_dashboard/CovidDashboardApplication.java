@@ -6,6 +6,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 
 @SpringBootApplication
 @EnableMongoRepositories(basePackages = "com.factoriaf5.covid_dashboard.repository")
+
 public class CovidDashboardApplication {
 
 	public static void main(String[] args) {
