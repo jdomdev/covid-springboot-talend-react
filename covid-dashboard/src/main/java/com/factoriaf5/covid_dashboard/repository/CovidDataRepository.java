@@ -8,5 +8,5 @@ import com.factoriaf5.covid_dashboard.domain.CovidData;
 
 @Repository
 public interface CovidDataRepository extends MongoRepository<CovidData, String> {
-    
+    List<CovidData> findByCountry(String country);
 }
