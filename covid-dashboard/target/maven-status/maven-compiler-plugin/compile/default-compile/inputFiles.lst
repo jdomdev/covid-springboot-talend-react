@@ -2,6 +2,10 @@
 /home/juandomingo/factoriaf5/java-projects/covid-springboot-talend-react/covid-dashboard/src/main/java/com/factoriaf5/covid_dashboard/controller/CovidDataController.java
 /home/juandomingo/factoriaf5/java-projects/covid-springboot-talend-react/covid-dashboard/src/main/java/com/factoriaf5/covid_dashboard/domain/CovidData.java
 /home/juandomingo/factoriaf5/java-projects/covid-springboot-talend-react/covid-dashboard/src/main/java/com/factoriaf5/covid_dashboard/dto/CovidDataDto.java
+/home/juandomingo/factoriaf5/java-projects/covid-springboot-talend-react/covid-dashboard/src/main/java/com/factoriaf5/covid_dashboard/dto/error/ErrorResponse.java
+/home/juandomingo/factoriaf5/java-projects/covid-springboot-talend-react/covid-dashboard/src/main/java/com/factoriaf5/covid_dashboard/exception/InvalidInputException.java
+/home/juandomingo/factoriaf5/java-projects/covid-springboot-talend-react/covid-dashboard/src/main/java/com/factoriaf5/covid_dashboard/exception/ResourceNotFoundException.java
+/home/juandomingo/factoriaf5/java-projects/covid-springboot-talend-react/covid-dashboard/src/main/java/com/factoriaf5/covid_dashboard/exception/handler/GlobalExceptionHandler.java
 /home/juandomingo/factoriaf5/java-projects/covid-springboot-talend-react/covid-dashboard/src/main/java/com/factoriaf5/covid_dashboard/repository/CovidDataRepository.java
 /home/juandomingo/factoriaf5/java-projects/covid-springboot-talend-react/covid-dashboard/src/main/java/com/factoriaf5/covid_dashboard/service/CovidDataService.java
 /home/juandomingo/factoriaf5/java-projects/covid-springboot-talend-react/covid-dashboard/src/main/java/com/factoriaf5/covid_dashboard/service/CovidDataServiceImpl.java

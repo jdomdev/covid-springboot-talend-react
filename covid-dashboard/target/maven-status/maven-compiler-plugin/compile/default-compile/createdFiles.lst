@@ -1,7 +1,11 @@
 com/factoriaf5/covid_dashboard/dto/CovidDataDto.class
+com/factoriaf5/covid_dashboard/exception/handler/GlobalExceptionHandler.class
+com/factoriaf5/covid_dashboard/exception/ResourceNotFoundException.class
 com/factoriaf5/covid_dashboard/service/CovidDataServiceImpl.class
 com/factoriaf5/covid_dashboard/CovidDashboardApplication.class
+com/factoriaf5/covid_dashboard/exception/InvalidInputException.class
 com/factoriaf5/covid_dashboard/controller/CovidDataController.class
+com/factoriaf5/covid_dashboard/dto/error/ErrorResponse.class
 com/factoriaf5/covid_dashboard/repository/CovidDataRepository.class
 com/factoriaf5/covid_dashboard/service/CovidDataService.class
 com/factoriaf5/covid_dashboard/domain/CovidData.class
