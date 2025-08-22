@@ -85,9 +85,10 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+					<mainClass>com.factoriaf5.covid_dashboard.CovidDashboardApplication</mainClass>
 				</configuration>
 			</plugin>
-			</plugins>
+        </plugins>
 	</build>
 
 </project>
