@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
+import com.factoriaf5.covid_dashboard.exception.ResourceNotFoundException;
 
 @Service
 public class CovidDataServiceImpl implements CovidDataService {
@@ -21,7 +22,11 @@ public class CovidDataServiceImpl implements CovidDataService {
 
     @Override
     public List<CovidDataDto> getAll() {
-        return covidDataRepository.findAll().stream()
+        List<CovidData> covidDataList = covidDataRepository.findAll();
+        if (covidDataList.isEmpty()) {
+            throw new ResourceNotFoundException("No COVID data found.");
+        }
+        return covidDataList.stream()
                 .map(this::convertToDto)
                 .collect(Collectors.toList());
     }
