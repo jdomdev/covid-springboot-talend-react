@@ -31,6 +31,17 @@ public class CovidDataServiceImpl implements CovidDataService {
                 .collect(Collectors.toList());
     }
 
+    @Override
+    public List<CovidDataDto> findByCountry(String country) {
+        List<CovidData> covidDataList = covidDataRepository.findByCountry(country);
+        if (covidDataList.isEmpty()) {
+            throw new ResourceNotFoundException("No COVID data found for country: " + country);
+        }
+        return covidDataList.stream()
+                .map(this::convertToDto)
+                .collect(Collectors.toList());
+    }
+
     private CovidDataDto convertToDto(CovidData covidData) {
         if (covidData == null) {
             return null;

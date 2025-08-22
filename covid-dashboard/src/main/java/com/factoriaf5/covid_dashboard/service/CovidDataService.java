@@ -5,4 +5,5 @@ import java.util.List;
 
 public interface CovidDataService {
     List<CovidDataDto> getAll();
+    List<CovidDataDto> findByCountry(String country);
 }

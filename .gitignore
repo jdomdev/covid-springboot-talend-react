@@ -2,7 +2,14 @@
 .vscode/
 .idea/                 # IntelliJ IDEA project files
 *.iml                  # IntelliJ module file
-target/                # Maven build directory
+/target/             # Maven build directory
+/covid-dashboard/target/ # Specific target directory for the covid-dashboard module
+out/                   # Common output directory for some IDEs
+build/                 # Common build directory for some IDEs
+.gradle/               # Gradle build directory
+.gradle                # Gradle cache directory
+.gradle-wrapper.jar   # Gradle wrapper executable
+.mvn/                  # Maven wrapper directory
 .mvn/wrapper/maven-wrapper.jar # Maven wrapper executable
 
 # Compiled class files
