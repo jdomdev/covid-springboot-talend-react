@@ -41,4 +41,4 @@ Thumbs.db              # Windows
 # Project-specific configuration (sensitive data)
 # It's better to manage environment-specific properties outside Git.
 application-*.properties
-application.yml        # Common configuration format
+application.yml        # Common configuration formatapplication-local.properties
