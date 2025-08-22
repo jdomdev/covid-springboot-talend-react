@@ -3,7 +3,7 @@
 .idea/                 # IntelliJ IDEA project files
 *.iml                  # IntelliJ module file
 /target/             # Maven build directory
-covid-dashboard/target/ # Specific target directory for the covid-dashboard module
+/covid-dashboard/target/ # Specific target directory for the covid-dashboard module
 out/                   # Common output directory for some IDEs
 build/                 # Common build directory for some IDEs
 .gradle/               # Gradle build directory
